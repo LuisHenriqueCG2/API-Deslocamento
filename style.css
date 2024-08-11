@@ -1,0 +1,46 @@
+body{
+    background-color:white;
+    margin: 5px;
+    padding: 2%;
+    border: 2px solid #fff;
+}
+
+.tabela{
+    margin: left;
+    width: 98%;
+    background: #fff;
+    border: 3px solid #0b090a;
+    padding: 10px;
+    text-align: left;
+    background-color: aliceblue;
+
+}
+
+#id{
+    padding: 10px;
+}
+
+#GetButton{
+    background-color: #0b090a;
+    color: white;
+    padding: 2px;;
+    margin-bottom: 5px;
+    
+}
+
+
+th{
+    padding: 30px;
+    text-align: justify;
+}
+
+tbody{
+    padding: 30px;
+}
+
+#lbl{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    
+}

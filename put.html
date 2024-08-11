@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API Deslocamento</title>
+</head>
+<body>
+    
+    <div class="tabela">
+            <h2>Cliente</h2>
+            <form id="formAlteraCliente" onsubmit="alterarCliente()">
+                <label for="id" >ID:</label>
+                <input name="id" id="id" type="text" placeholder="Informe o ID a ser alterado">
+                <br><br>
+                <label for="nome" >Nome:</label>
+                <input name="nome" id="nome" type="text">
+                <br><br>
+                <label for="logradouro">Logradouro:</label>
+                <input name="logradouro" id="logradouro" type="text">
+                <br><br>
+                <label for="numero">Número:</label>
+                <input name="numero" id="numero" type="text">
+                <br><br>
+                <label for="bairro">Bairro:</label>
+                <input name="bairro" id="bairro" type="text">
+                <br><br>
+                <label for="cidade">Cidade:</label>
+                <input name="cidade" id="cidade" type="text">
+                <br><br>
+                <label for="uf">Estado(UF):</label>
+                <input name="uf" id="uf" type="text">
+                <br><br>
+                <button id="GetButton" onclick="alterarCliente()">Alterar Cliente</button>
+                <br><br>
+               
+            </form>
+    </div>
+    <br>
+    <div class="tabela">
+        <h2>Condutor</h2>
+        <form id="formAlteraCondutor" onsubmit="alterarCondutor()">
+            <label for="id" >ID:</label>
+            <input name="id" id="id" type="text" placeholder="Informe o ID a ser alterado">
+            <br><br>
+            <label for="categoriaHabilitacao" >Categoria:</label>
+            <input name="categoriaHabilitacao" id="categoriaHabilitacao" type="text">
+            <br><br>
+            <label for="vencimentoHabilitacao">Vencimento:</label>
+            <input name="vencimentoHabilitacao" id="vencimentoHabilitacao" type="text">
+            <br><br>
+            <button id="GetButton" onclick="alterarCondutor()">Alterar Condutor</button>
+            <br><br>
+           
+        </form>
+    </div>
+    <br>
+    <div class="tabela">
+        <h2>Veículo</h2>
+        <form id="formlAlterarVeiculo" onsubmit="alterarVeículo()">
+            <label for="id" >ID:</label>
+            <input name="id" id="id" type="text" placeholder="Informe o ID a ser alterado">
+            <br><br>
+            <label for="marcaModelo" >Marca/Modelo:</label>
+            <input name="marcaModelo" id="marcaModelo" type="text">
+            <br><br>
+            <label for="anoFabricacao">Ano Fabricação:</label>
+            <input name="anoFabricacao" id="anoFabricacao" type="text">
+            <br><br>
+            <label for="kmAtual">KM Atual:</label>
+            <input name="kmAtual" id="kmAtual" type="text">
+            <br><br>
+            <button id="GetButton" onclick="alterarVeículo()">Alterar Veículo</button>
+            <br><br>
+           
+        </form>
+</div>
+</body>
+<script src="scriptPUT.js"></script>
+</html>
